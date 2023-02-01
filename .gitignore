@@ -1,0 +1,31 @@
+# Node Modules
+node_modules/
+
+# .env files
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React project node_modules and build
+/recipe_management_frontend_web/node_modules/
+/recipe_management_frontend_web/build/
+
+# React project .env
+/recipe_management_frontend_web/.env
+
+# Ignore all node_modules in all sub-directories of folder recipe_management_backend
+/recipe_management_backend/**/node_modules/
+
+# Ignore all .env files in all sub-directories of folder recipe_management_backend
+/recipe_management_backend/**/.env
+
+# Ignore all logs in all sub-directories of folder recipe_management_backend
+/recipe_management_backend/**/*.log
+
+# Ignore .vscode
+
+.vscode/
